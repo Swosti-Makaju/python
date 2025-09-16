@@ -39,6 +39,16 @@ if name.lower() == reversed_name.lower():
     print("It is a palindrome!")
 else:
     print("It is not a palindrome.")
+
+# Escape characters in string
+# To include special characters in a string, we use escape characters
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt) 
+
+#string methods
+# there are many string methods in python like (strip(), replace(), split(), join(), find(), index(), count(), isalpha(), isdigit(), isspace(), startswith(), endswith())
+# we can use these methods to manipulate strings
+
 # In python we have different data types like (text type, numeric type, sequence type, mapping type, set type, boolean type, binary type)
 # we can get the data type of any object by using type() function
 x="hello"
