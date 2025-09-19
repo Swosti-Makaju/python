@@ -99,3 +99,24 @@ print(a)  #this prints True
 b = not (5 + 3 > 2) or 4 < 6  #comparison and logical operators with parentheses
 print(b)  #this prints True
 
+# we can use parentheses to change the order of evaluation
+result = (10 + 5) * (2 - 1)  #parentheses change the order of evaluation
+print(result)  #this prints 15
+result = 10 + (5 * 2) - 3  #parentheses change the order of evaluation
+print(result)  #this prints 17
+
+result = (10 + 5) * 2 - 3 ** 2  #parentheses change the order of evaluation
+print(result)  #this prints 21
+result = 10 + 5 * (2 - 3) ** 2  #parentheses change the order of evaluation
+print(result)  #this prints 15
+
+result = (10 + 5) * (2 - 1) + 3 ** 2  #parentheses change the order of evaluation
+print(result)  #this prints 24                              
+result = 10 + (5 * 2) - (3 ** 2)  #parentheses change the order of evaluation
+print(result)  #this prints 11 
+
+result = (10 + 5) * 2 - (3 ** 2) + 1  #parentheses change the order of evaluation
+print(result)  #this prints 22  
+result = 10 + (5 * 2) - (3 ** 2) + 4  #parentheses change the order of evaluation
+print(result)  #this prints 15
+
