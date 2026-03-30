@@ -72,3 +72,17 @@ while i<len(z):
     a+=b
     print(a)
 
+#using append
+a=['a','b']
+b=['s','t']
+for x in b:
+    a.append(b)
+    a.extend(b)
+    print(a)
+
+numbers=[5,2,9,1,7]
+numbers.sort()
+print(numbers) #sorts the list in ascending order
+
+numbers.reverse()
+print(numbers) #reverses the order of the list
