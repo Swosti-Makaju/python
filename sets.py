@@ -24,3 +24,24 @@ print(thisset) #this will not raise an error if banana is not present in the set
 #pop() removes a random item from the set
 #clear() removes all items from the set
 #del() deletes the set completely
+
+# joining sets using union()
+a = {1, 2, 3}
+b = {3, 4, 5}
+c = a.union(b)
+print(c) # joins both sets
+
+# joining sets using update()
+a.update(b)
+print(a) # adds items from b into a
+
+# intersection keeps common values
+x = {1, 2, 3, 4}
+y = {3, 4, 5, 6}
+print(x.intersection(y))
+
+# difference keeps values only from the first set
+print(x.difference(y))
+
+# symmetric_difference keeps values not common in both sets
+print(x.symmetric_difference(y))
