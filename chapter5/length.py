@@ -1,0 +1,5 @@
+numbers = set()
+numbers.add(10)
+numbers.add(20.0)
+numbers.add('20')
+print("The length of the set is:", len(numbers))
